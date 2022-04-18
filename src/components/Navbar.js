@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./Navbar.module.css";
-import xbox from "../images/xbox.png";
+import logo from "../images/xbox.png";
 
 const Navbar = () => {
     return (
@@ -13,7 +13,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className={styles.logo}>
-                <img src={xbox} />
+                <img className={styles.logo} src={logo} alt="logo" />
             </div>
         </header>
     );
