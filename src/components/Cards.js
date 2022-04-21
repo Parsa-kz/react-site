@@ -7,10 +7,10 @@ class Cards extends Component {
     render() {
         return (
             <div className={styles.container}>
-                <Card image={iphonex} name="iphone X" cost="500$" />
-                <Card image={iphonex} name="iphone X" cost="500$" />
-                <Card image={iphonex} name="iphone X" cost="500$" />
-                <Card image={iphonex} name="iphone X" cost="500$" />
+                <Card image={iphonex} name="iphone X" cost="500 $" />
+                <Card image={iphonex} name="iphone X" cost="500 $" />
+                <Card image={iphonex} name="iphone X" cost="500 $" />
+                <Card image={iphonex} name="iphone X" cost="500 $" />
             </div>
         );
     }
